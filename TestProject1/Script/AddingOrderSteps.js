@@ -1,0 +1,47 @@
+﻿class AddOrderAction {
+
+  constructor() {
+    this.orders = Aliases.Orders.OrderForm.Group;
+  }
+
+   openOrderMenu() {
+    Aliases.Orders.MainForm.MainMenu.Click("Orders|New order...");
+    return this;
+  }
+
+  addProductName(productName) {
+    this.orders.ProductNames.ClickItem(productName);
+    return this;
+  }
+
+  addOrderWithCustomerName(name) {
+    this.orders.Customer.SetText(name);
+    return this;
+  }
+
+  addOrderWithCardNo(cardNo) {
+    this.orders.CardNo.Keys(cardNo);
+    return this;
+  }
+
+  addOrderWithState(state) {
+    this.orders.State_.SetText(state);
+    return this;
+  }
+
+  addOrderWithStreet(street) {
+    this.orders.Street.SetText(street);
+    return this;
+  }
+  
+  addOrderWithDate(date){
+    this.orders.Date.wDate = date;
+    return this;
+  }
+
+  clickSubmitButton() {
+    Aliases.Orders.OrderForm.ButtonOK.Click();
+  }
+}
+
+module.exports.AddOrderAction = AddOrderAction;

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="test">
+			<child name="FirstOrder" key="{027582FE-13A7-4C02-85FE-A83BCCC884A4}" path="FirstOrder.tcKDTest" />
+			<child name="SecondOrder" key="{3FB6F07C-E179-4C16-BD71-0BCA30CD5F88}" path="SecondOrder.tcKDTest" />
+			<child name="ThirdOrder" key="{7762509D-7D41-4BB1-B67A-DEC1C38F359E}" path="ThirdOrder.tcKDTest" />
+		</folder>
+	</children>
+</Root>

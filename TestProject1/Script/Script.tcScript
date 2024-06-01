@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="main">
+			<child name="OrderAppSteps" key="{8FF7A576-03EF-46F6-9495-2056C490A086}" path="OrderAppSteps.js" />
+			<child name="AddingOrderSteps" key="{D547004F-2D97-414D-A98D-CB74B8FBC454}" path="AddingOrderSteps.js" />
+		</folder>
+		<folder name="test">
+			<child name="OrdersTests" key="{AAEA133F-BDDC-4D67-9625-24BDD8C2AAF8}" path="OrdersTests.js" />
+			<child name="KeywordTesting" key="{50E63C23-4C63-4A3C-BD53-CA5ECAB633B7}" path="KeywordTesting.js" />
+		</folder>
+	</children>
+</Root>

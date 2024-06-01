@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{0054AF55-0C8E-47A2-9D07-9664A65FDD4F}">
+				<TypeInfo Item0="{E6E536C9-55C6-470C-AC69-CC50770692D6}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Orders" Key="{5C5655B3-30EF-4C10-A0DE-88DF49251E36}">
+						<TypeInfo Item0="{1256BBA0-D06B-4E4C-913C-C8BC919C2275}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="OrderForm" Key="{2777EE5E-5F7F-4185-95BF-416D473F03FD}">
+								<Image FileName="-912338472" Left="0" Top="0" Right="610" Bottom="598" />
+								<TypeInfo Item0="{4382FBDD-8D6F-4EB0-91E4-BDCE9E1C979D}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="OrderForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Group" Key="{1028DB6E-BD3A-4573-A28B-138B0EB8B89C}">
+										<Image FileName="-912338472" Left="14" Top="43" Right="594" Bottom="543" />
+										<TypeInfo Item0="{116CDC02-1E2E-4932-89D3-523688787C30}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="Group" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ProductNames" Key="{CF42D99A-BDE6-450F-B27B-F362F1B3C0D7}">
+												<Image FileName="-912338472" Left="94" Top="63" Right="584" Bottom="89" />
+												<TypeInfo Item0="{119A4CAD-DA94-4E04-AAE8-D7ECFBE06DC0}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="ProductNames" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Customer" Key="{0C284D11-E444-4FE2-BF4B-2603947015BC}">
+												<Image FileName="-912338472" Left="144" Top="243" Right="584" Bottom="268" />
+												<TypeInfo Item0="{E6EE6099-5E5A-4107-862F-29FBF07F502B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Customer" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Street" Key="{7C02C328-F916-498F-9B52-0FDC03C2B7C1}">
+												<Image FileName="-912338472" Left="144" Top="283" Right="304" Bottom="308" />
+												<TypeInfo Item0="{E6EE6099-5E5A-4107-862F-29FBF07F502B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Street" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="State_" Key="{189D242B-C4C4-4E26-B21B-701B58AEC772}">
+												<Image FileName="-912338472" Left="144" Top="323" Right="304" Bottom="348" />
+												<TypeInfo Item0="{E6EE6099-5E5A-4107-862F-29FBF07F502B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="State" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="City" Key="{AD52BE11-F107-42B9-A73D-F8AE836647ED}">
+												<Image FileName="-912338472" Left="424" Top="283" Right="584" Bottom="308" />
+												<TypeInfo Item0="{E6EE6099-5E5A-4107-862F-29FBF07F502B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="City" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Zip" Key="{7DD1ACE8-7119-4A20-BCAC-8F8ED0E913BE}">
+												<Image FileName="-912338472" Left="424" Top="323" Right="584" Bottom="348" />
+												<TypeInfo Item0="{E6EE6099-5E5A-4107-862F-29FBF07F502B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Zip" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="CardNo" Key="{0ABE9545-7469-4740-93C5-E4D281A61A3A}">
+												<Image FileName="-912338472" Left="144" Top="463" Right="584" Bottom="488" />
+												<TypeInfo Item0="{E6EE6099-5E5A-4107-862F-29FBF07F502B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="CardNo" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Price" Key="{52F25BA2-F72D-4290-8FE0-6DE9C2907302}">
+												<Image FileName="-912338472" Left="294" Top="103" Right="394" Bottom="128" />
+												<TypeInfo Item0="{E6EE6099-5E5A-4107-862F-29FBF07F502B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Price" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Date" Key="{3A83498C-83DC-4530-8998-0585BD20F0B8}">
+												<Image FileName="1124508745" Left="144" Top="202" Right="304" Bottom="227" />
+												<TypeInfo Item0="{58684C46-A4ED-4B22-A102-0240149AF35D}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Date" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="ButtonOK" Key="{3979989A-18EB-487B-8EB2-31CAFD0A1210}">
+										<Image FileName="774005334" Left="404" Top="553" Right="494" Bottom="583" />
+										<TypeInfo Item0="{9BB85848-8862-441F-BAC6-B53FC035B533}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ButtonOK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="MainForm" Key="{D760429D-0ADB-48C0-A67C-DF8AC66203C6}">
+								<Image FileName="-282148952" Left="0" Top="0" Right="760" Bottom="510" />
+								<TypeInfo Item0="{4382FBDD-8D6F-4EB0-91E4-BDCE9E1C979D}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ToolBar" Key="{3AF0B7BD-F899-4B24-9A04-739377E9B98F}">
+										<Image FileName="-282148952" Left="10" Top="64" Right="750" Bottom="99" />
+										<TypeInfo Item0="{FA21C855-2966-403A-BFE5-F8F6D539813C}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ToolBar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgConfirmation" Key="{46CBFCC0-47AB-4121-9529-6F08CD098CBF}">
+								<Image FileName="-1979286080" Left="0" Top="0" Right="363" Bottom="186" />
+								<TypeInfo Item0="{010E3408-4454-49DF-A999-6FD6F5C47BB3}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Confirmation" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnYes" Key="{491155E2-BA58-422B-AE36-D533525179E3}">
+										<Image FileName="-1979286080" Left="37" Top="142" Right="131" Bottom="171" />
+										<TypeInfo Item0="{6A012AC7-A8C1-4B70-AE16-6521BB21216B}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Yes" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnNo" Key="{22ABCEBB-9907-495D-8B2D-87E854E7D747}">
+										<Image FileName="-1979286080" Left="141" Top="142" Right="235" Bottom="171" />
+										<TypeInfo Item0="{6A012AC7-A8C1-4B70-AE16-6521BB21216B}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;No" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgSaveAs" Key="{F68E1E29-70AD-43E2-8AD2-2852B9836DC4}">
+								<Image FileName="-1906971470" Left="0" Top="0" Right="960" Bottom="600" />
+								<TypeInfo Item0="{1230C551-DB65-468B-A7D1-614343F45E83}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save As" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnSave" Key="{05DF9E7D-70D0-4C29-9024-5E423A81CA55}">
+										<Image FileName="-1906971470" Left="694" Top="542" Right="804" Bottom="575" />
+										<TypeInfo Item0="{6A012AC7-A8C1-4B70-AE16-6521BB21216B}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Save" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndWindowsForms10Window8app0141b42ar8ad1" Key="{721EB3C9-139B-4475-9A81-0A34FD0AC3EE}">
+								<Image FileName="485237078" Left="0" Top="0" Right="760" Bottom="510" />
+								<TypeInfo Item0="{010E3408-4454-49DF-A999-6FD6F5C47BB3}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="WindowsForms10.Window.8.app.0.141b42a_r8_ad1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Item" Key="{BD81327A-BA8A-48F0-BF7A-ACBAF0A6DC8E}">
+										<Image FileName="-904644839" Left="10" Top="64" Right="750" Bottom="99" />
+										<TypeInfo Item0="{56FF879C-F9C8-45D3-A3BE-2BAC151A4EFD}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WindowsForms10.ToolbarWindow32.app.0.141b42a_r8_ad1" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Microsoft_Windows_ShellExperienceHost" Key="{04A5D7B1-3A33-45EB-820B-DBFE0FDF6391}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Microsoft.Windows.ShellExperienceHost" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Project" Key="{462F2B71-FB85-43A8-8C26-97BAAE417696}">
+								<Image FileName="950932570" Left="0" Top="0" Right="450" Bottom="1030" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value Value="XAML" />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="Windows.UI.Core.CoreWindow" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value Value="window" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="Project" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DevicesFlowFrame" Key="{B35BD3F9-ED77-438E-B8F8-3912FCD0B43F}">
+										<Image FileName="950932570" Left="0" Top="0" Right="450" Bottom="1030" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="XAML" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="Window" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="window" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="DevicesFlowFrame" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ListViewDisplaySwitch" Key="{8497C39E-62F8-4692-B6B5-7987BB6743B2}">
+												<Image FileName="950932570" Left="0" Top="69" Right="450" Bottom="589" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="ListView" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="list" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="ListViewDisplaySwitch" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="PC_screen_only" Key="{7BEA19B6-04E3-4522-9CFB-C5988F011A63}">
+														<Image FileName="950932570" Left="0" Top="69" Right="450" Bottom="199" />
+														<TypeInfo Item0="{02842BE2-AB24-479E-B4EA-A27B50DCAB72}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="ListViewItem" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="list item" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="PC_screen_only" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Orders" Owner="{5C5655B3-30EF-4C10-A0DE-88DF49251E36}">
+			<Child Name="OrderForm" Owner="{2777EE5E-5F7F-4185-95BF-416D473F03FD}">
+				<Child Name="Group" Owner="{1028DB6E-BD3A-4573-A28B-138B0EB8B89C}">
+					<Child Name="ProductNames" Owner="{CF42D99A-BDE6-450F-B27B-F362F1B3C0D7}" />
+					<Child Name="Customer" Owner="{0C284D11-E444-4FE2-BF4B-2603947015BC}" />
+					<Child Name="Street" Owner="{7C02C328-F916-498F-9B52-0FDC03C2B7C1}" />
+					<Child Name="State_" Owner="{189D242B-C4C4-4E26-B21B-701B58AEC772}" />
+					<Child Name="City" Owner="{AD52BE11-F107-42B9-A73D-F8AE836647ED}" />
+					<Child Name="Zip" Owner="{7DD1ACE8-7119-4A20-BCAC-8F8ED0E913BE}" />
+					<Child Name="CardNo" Owner="{0ABE9545-7469-4740-93C5-E4D281A61A3A}" />
+					<Child Name="Price" Owner="{52F25BA2-F72D-4290-8FE0-6DE9C2907302}" />
+					<Child Name="Date" Owner="{3A83498C-83DC-4530-8998-0585BD20F0B8}" />
+				</Child>
+				<Child Name="ButtonOK" Owner="{3979989A-18EB-487B-8EB2-31CAFD0A1210}" />
+			</Child>
+			<Child Name="MainForm" Owner="{D760429D-0ADB-48C0-A67C-DF8AC66203C6}">
+				<Child Name="ToolBar" Owner="{3AF0B7BD-F899-4B24-9A04-739377E9B98F}" />
+			</Child>
+			<Child Name="dlgConfirmation" Owner="{46CBFCC0-47AB-4121-9529-6F08CD098CBF}">
+				<Child Name="btnYes" Owner="{491155E2-BA58-422B-AE36-D533525179E3}" />
+				<Child Name="btnNo" Owner="{22ABCEBB-9907-495D-8B2D-87E854E7D747}" />
+			</Child>
+			<Child Name="dlgSaveAs" Owner="{F68E1E29-70AD-43E2-8AD2-2852B9836DC4}">
+				<Child Name="btnSave" Owner="{05DF9E7D-70D0-4C29-9024-5E423A81CA55}" />
+			</Child>
+			<Child Name="wndWindowsForms10Window8app0141b42ar8ad1" Owner="{721EB3C9-139B-4475-9A81-0A34FD0AC3EE}">
+				<Child Name="Item" Owner="{BD81327A-BA8A-48F0-BF7A-ACBAF0A6DC8E}" />
+			</Child>
+		</Child>
+		<Child Name="Microsoft_Windows_ShellExperienceHost" Owner="{04A5D7B1-3A33-45EB-820B-DBFE0FDF6391}">
+			<Child Name="Project" Owner="{462F2B71-FB85-43A8-8C26-97BAAE417696}">
+				<Child Name="DevicesFlowFrame" Owner="{B35BD3F9-ED77-438E-B8F8-3912FCD0B43F}">
+					<Child Name="ListViewDisplaySwitch" Owner="{8497C39E-62F8-4692-B6B5-7987BB6743B2}">
+						<Child Name="PC_screen_only" Owner="{7BEA19B6-04E3-4522-9CFB-C5988F011A63}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
