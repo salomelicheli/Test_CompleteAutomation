@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="wndWindowsForms10Window8app0141b42ar8ad1" key="{D6F3BF5B-8BA1-49A4-A33D-4AADD4787394}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="wndWindowsForms10Window8app0141b42ar8ad1" ID="{D6F3BF5B-8BA1-49A4-A33D-4AADD4787394}" FileName="Regions\wndWindowsForms10Window8app0141b42ar8ad1.png" Update="False" />
+		</child>
+		<child name="wndWindowsForms10Window8app0141b42ar8ad11" key="{3E9E3799-B446-45B2-8480-E32E6BA92A09}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="wndWindowsForms10Window8app0141b42ar8ad11" ID="{3E9E3799-B446-45B2-8480-E32E6BA92A09}" FileName="Regions\wndWindowsForms10Window8app0141b42ar8ad11.png" Update="False" />
+		</child>
+	</children>
+</Root>
