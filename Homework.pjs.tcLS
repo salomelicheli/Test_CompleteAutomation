@@ -23,14 +23,35 @@
 			<Node name="{195f77e7-4a99-4d2e-8fe4-a6cfe2c11a29}">
 				<Prp name="relpath" type="S" value="project1\project1.mds.tcLS"/>
 			</Node>
+			<Node name="{1a4196b2-9c13-4edc-8527-cb2a4041bb73}">
+				<Prp name="relpath" type="S" value="TestProject3\TestProject3.mds.tcLS"/>
+			</Node>
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="default project" type="S" value="{685956FC-4768-4B54-B268-EA1DC9B28E8F}"/>
+			</Node>
+			<Node name="{3dac798a-0a2b-4c1a-81c8-b49967c76e76}">
+				<Prp name="relpath" type="S" value="TestProject3\TestProject3.mds.tcLS"/>
+			</Node>
+			<Node name="{41bd3dc8-3efd-4de9-9cce-c24a822c453b}">
+				<Prp name="relpath" type="S" value="TestProject3\TestProject3.mds.tcLS"/>
 			</Node>
 			<Node name="{685956fc-4768-4b54-b268-ea1dc9b28e8f}">
 				<Prp name="relpath" type="S" value="TestProject1\TestProject1.mds.tcLS"/>
 			</Node>
 			<Node name="{6e7cbbfa-2ed8-419b-a19a-3c70c5d26e51}">
 				<Prp name="relpath" type="S" value="project1\project1.mds.tcLS"/>
+			</Node>
+			<Node name="{779056a4-03f4-43c7-9f1f-cc24204a9083}">
+				<Prp name="relpath" type="S" value="TestProject2\TestProject2.mds.tcLS"/>
+			</Node>
+			<Node name="{a6bf7807-42f2-4dce-b1ec-10528355d0a6}">
+				<Prp name="relpath" type="S" value="TestProject3\TestProject3.mds.tcLS"/>
+			</Node>
+			<Node name="{e3b2c8a4-b708-4d89-92cb-9d0a0f5e031f}">
+				<Prp name="relpath" type="S" value="TestProject4\TestProject4.mds.tcLS"/>
+			</Node>
+			<Node name="{f41e5ef9-3379-4d69-8802-ae1b99de87db}">
+				<Prp name="relpath" type="S" value="TestProject3\TestProject3.mds.tcLS"/>
 			</Node>
 			<Node name="logs">
 				<Prp name="key" type="S" value="{DF5D29F1-74BB-44BA-A55E-330894858EF0}"/>

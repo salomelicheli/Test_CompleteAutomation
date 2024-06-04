@@ -15,27 +15,12 @@
   }
 
   addOrderWithCustomerName(name) {
-    this.orders.Customer.SetText(name);
-    return this;
-  }
-
-  addOrderWithCity(city) {
-    this.orders.City.SetText(city);
+    this.orders.Customer.setText(name);
     return this;
   }
 
   addOrderWithCardNo(cardNo) {
     this.orders.CardNo.Keys(cardNo);
-    return this;
-  }
-
-  addOrderWithZip(zip) {
-    this.orders.Zip.SetText(zip);
-    return this;
-  }
-
-  addOrderWithPrice(price) {
-    this.orders.Price.Keys(price);
     return this;
   }
 
@@ -45,7 +30,7 @@
   }
 
   addOrderWithStreet(street) {
-    this.orders.Street.SetText(street);
+    this.orders.Street.setText(street);
     return this;
   }
   
