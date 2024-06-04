@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="main">
+			<folder name="common">
+				<child name="CommonFunctions" key="{0BCB9F2B-87DE-4B09-BF8B-C6364ED15DEB}" path="CommonFunctions.js" />
+				<child name="GetServiceSteps" key="{8C647F95-AE71-4D13-BBDF-C3E6A44DB369}" path="GetServiceSteps.js" />
+			</folder>
+			<folder name="windows">
+				<child name="LandingWindow" key="{325A3825-1C22-435F-9020-C9B4395F7B48}" path="LandingWindow.js" />
+				<child name="OrdersFormWindow" key="{593DB61D-6C7A-4AE8-816F-71C93E2DC223}" path="OrdersFormWindow.js" />
+				<child name="ConfirmationWindow" key="{5E3D461F-1C69-4E0F-A637-9799ACE37E3B}" path="ConfirmationWindow.js" />
+			</folder>
+			<folder name="Models">
+				<child name="Order" key="{7BB05B09-DCAC-40DF-9243-D76106A6AEB1}" path="Order.js" />
+			</folder>
+		</folder>
+		<folder name="test">
+			<folder name="testcases">
+				<child name="OrderFormTestCases" key="{D88BCCE9-1602-4924-A020-A6BD3BD94C3C}" path="OrderFormTestCases.js" />
+			</folder>
+			<folder name="testrunners">
+				<child name="TestRunner" key="{555E5EEB-B90E-4C1E-BE53-A0587A99FB95}" path="TestRunner.js" />
+			</folder>
+		</folder>
+	</children>
+</Root>

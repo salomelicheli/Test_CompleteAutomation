@@ -1,0 +1,92 @@
+﻿﻿const LandingPage = require("LandingWindow");
+const OrderFormWindow = require("OrdersFormWindow");
+const GetRequest = require("GetServiceSteps")
+const order = require("Order");
+const ConfirmationWindow = require("ConfirmationWindow");
+const { openOrdersApp, closeOrdersApp } = require("CommonFunctions");
+
+class OrderFormTestCases{
+  
+  constructor(){
+    this.OrderFormWindow = new OrderFormWindow();
+    this.GetRequest = new GetRequest();
+  }
+  
+  validatingCustomerNameField(){
+    openOrdersApp();
+    LandingPage.clickingAddOrder();
+    this.OrderFormWindow.validatingCustomerNameField();
+    this.OrderFormWindow.clickSubmitButton();
+  }
+  
+  validatingMastercardCheckbox(){
+    LandingPage.clickingOnOrder();
+    this.OrderFormWindow.validatingMasterCardCheckbox();
+    this.OrderFormWindow.clickSubmitButton();
+  }
+  
+  validatingThatPricePerUnitDoesntChange(){
+    LandingPage.clickingOnOrder();
+    const defaultPricePerUnit = this.OrderFormWindow.price.WndCaption;
+    this.OrderFormWindow.setPricePerUnit(200);
+    this.OrderFormWindow.clickSubmitButton();
+    LandingPage.clickOnEditOrder();
+    this.OrderFormWindow.validatingPricePerUnit(defaultPricePerUnit);
+    this.OrderFormWindow.clickSubmitButton();
+    closeOrdersApp();
+  }
+  
+  validatingUpdatedOrder(){
+    openOrdersApp();
+    LandingPage.clickingAddOrder();
+    this.OrderFormWindow.setCustomerName(Project.Variables.name1);
+    this.OrderFormWindow.clickSubmitButton();
+    LandingPage.clickOnEditOrder();
+    this.OrderFormWindow.validatingUpdatedNameField(Project.Variables.name1);
+    this.OrderFormWindow.clearingNameField();
+    this.OrderFormWindow.setCustomerName(Project.Variables.name2);
+    this.OrderFormWindow.clickSubmitButton();
+    LandingPage.clickOnEditOrder();
+    this.OrderFormWindow.validatingUpdatedNameField(Project.Variables.name2);
+    this.OrderFormWindow.clickSubmitButton();
+  }
+  
+  validatingDeletedOrder(){
+    const offerCount = LandingPage.ordersView.wItemCount;
+    LandingPage.clickingDeleteOrder();
+    ConfirmationWindow.clickingYesBtn();
+    LandingPage.validatingDeletedOrder(offerCount-1);
+    closeOrdersApp();
+  }
+  
+  getOrderDataFromServices(){
+    var response = this.GetRequest.getResponse(Project.Variables.Service1);
+    var responseAsJson = JSON.parse(response.Text);
+    order.setName(responseAsJson.name + "," +responseAsJson.age);
+    order.setQuantity(responseAsJson.count);
+    
+    var responseTwo = this.GetRequest.getResponse(Project.Variables.Service2);
+    var responseJson = JSON.parse(responseTwo.Text);
+    order.setStreet(responseJson.loc);
+    order.setCardNo(responseJson.ip);
+    order.setZip(responseJson.postal);
+    order.setState(responseJson.region);
+    order.setCity(responseJson.city);
+  }
+  
+  addOrderWithServiceData(){
+     openOrdersApp();
+     LandingPage.clickingAddOrder();
+     this.OrderFormWindow.setCustomerName(order.getName());
+     this.OrderFormWindow.setCardNo(order.getcardNo());
+     this.OrderFormWindow.setState(order.getState());
+     this.OrderFormWindow.setCity(order.getCity());
+     this.OrderFormWindow.setZip(order.getZip());
+     this.OrderFormWindow.setStreet(order.getStreet());
+     this.OrderFormWindow.setQuantity(order.getQuantity());
+     this.OrderFormWindow.clickSubmitButton();
+     closeOrdersApp();
+  }
+}
+
+module.exports = OrderFormTestCases;

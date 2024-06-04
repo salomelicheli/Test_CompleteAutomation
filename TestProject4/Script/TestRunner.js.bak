@@ -1,0 +1,14 @@
+﻿const OrderFormTestCases = require("OrderFormTestCases");
+//const { openOrdersApp, closeOrdersApp } = require("CommonFunctions");
+
+
+function TestRunner(){
+  let OrderFormTests = new OrderFormTestCases();
+  OrderFormTests.validatingCustomerNameField();
+  OrderFormTests.validatingMastercardCheckbox();
+  OrderFormTests.validatingThatPricePerUnitDoesntChange();
+  OrderFormTests.validatingUpdatedOrder();
+  OrderFormTests.validatingDeletedOrder();
+  OrderFormTests.getOrderDataFromServices();
+  OrderFormTests.addOrderWithServiceData();
+}
