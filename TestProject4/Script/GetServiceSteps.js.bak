@@ -1,0 +1,14 @@
+﻿class GetServiceSteps{
+  
+   getResponse(serviceUrl){
+      var httpObject = aqHttp.CreateGetRequest(serviceUrl);
+      return httpObject.Send();
+   }
+   
+//   parseResponse(response){
+//     return JSON.parse(response.Text);
+//   }
+   
+}
+
+module.exports = GetServiceSteps;

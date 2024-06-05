@@ -1,0 +1,30 @@
+﻿class LandingWindow{
+  
+  constructor(){
+    this.main = Aliases.Orders.MainForm;
+    this.button = Aliases.Orders.dlgConfirmation.btnYes;
+    this.ordersView = Aliases.Orders.wndWindowsForms10Window8app0141b42ar8ad1.Item;
+  }
+  
+  clickingAddOrder(){
+     this.main.MainMenu.Click("Orders|New order...");
+  }
+  
+  clickingDeleteOrder(){
+     this.main.MainMenu.Click("Orders|Delete order");
+  }
+
+  clickOnEditOrder(){
+    this.main.MainMenu.Click("Orders|Edit order...");
+  }
+  
+  clickingOnOrder(){
+    this.ordersView.DblClickItem(0);
+  }
+  
+  clickingYesBtn(){
+    this.button.Click();
+  }
+}
+
+module.exports = new LandingWindow();
