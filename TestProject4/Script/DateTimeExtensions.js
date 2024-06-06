@@ -17,7 +17,7 @@ class DateTimeExtensions{
       return namravli;
     } 
     
-    //ქორონიკონის წელთაღრიცხვის სისტემაში გადაჰყავს, ქორონიკონსა და მოქცევას ითვლის
+    //patternს ქორონიკონის წელთაღრიცხვის სისტემაში გადაჰყავს, ქორონიკონსა და მოქცევას ითვლის
     getQoronikoniDate(){
       const today = aqDateTime.Today();
       const year = aqDateTime.GetYear(today);

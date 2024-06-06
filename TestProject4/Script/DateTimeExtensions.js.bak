@@ -23,7 +23,7 @@ class DateTimeExtensions{
       const year = aqDateTime.GetYear(today);
       const day = aqDateTime.GetDay(today);
       const month = aqDateTime.GetMonth(today);
-      const tarigi = returnMoqcevaDaQoronikoni(today);
+      const tarigi = returnMoqcevaDaQoronikoni(year);
       
       return `${day} რიცხვი, მე-${month} თვე, ${tarigi[1]}-ე ქორონიკონი მე-${tarigi[0]} მოქცევისა`;
     }
