@@ -34,7 +34,6 @@
     for(var i=todaysYear; i >= metormetemoqceva; i -= cikli ){
       iterations++;
     }
-    Log.Message(iterations);
     const moqcevaDges = moqceva + iterations;
     const qoronikoni = cikli-((metormetemoqceva +iterations*cikli) - todaysYear);
       

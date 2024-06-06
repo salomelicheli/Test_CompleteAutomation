@@ -14,6 +14,6 @@ function MethodTest(){
   Log.Message(concatNumberDigits(111,231,123));
   Log.Message(isPalindrome("kayak"));
   Log.Message(isPalindrome("repaper"));
-  Log.Message(isPalindrome("noon"));
+  Log.Message(isPalindrome("Noon"));
   Log.Message(isPalindrome("nono"));
 }

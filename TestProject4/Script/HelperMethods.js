@@ -15,7 +15,7 @@
    
   
   function isPalindrome(value){
-    const convertedValue = aqConvert.VarToStr(value);
+    const convertedValue = aqConvert.VarToStr(value).toLowerCase();
     for(var i = convertedValue.length; i > 0; i--){
       if(convertedValue[i - 1] !== convertedValue[convertedValue.length-i]){
         return false;
