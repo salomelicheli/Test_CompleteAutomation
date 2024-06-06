@@ -15,11 +15,11 @@
      }
      
     setCity(city){
-      this.city.SetText(city)
+      this.city.Keys(city)
     }
     
     setCustomerName(name) {
-      this.customer.SetText(name);
+      this.customer.Keys(name);
     }
 
     setCardNo(cardNo) {
@@ -27,15 +27,15 @@
     }
 
     setState(state) {
-      this.state.SetText(state);
+      this.state.Keys(state);
     }
 
     setStreet(street) {
-      this.street.SetText(street);
+      this.street.Keys(street);
     }
 
     setPrice(price){
-      this.price.setText(price);
+      this.price.Keys(price);
     }
   
     setQuantity(quantity){
@@ -43,7 +43,7 @@
     }
   
     setZip(zip){
-      this.zip.SetText(zip);
+      this.zip.Keys(zip);
     }
     
     setPricePerUnit(price){
@@ -71,7 +71,11 @@
     }
     
     validatingPricePerUnit(defaultPricePerUnit){
-      aqObject.CheckProperty(this..price, "text", cmpEqual, defaultPricePerUnit);
+      aqObject.CheckProperty(this.price, "text", cmpEqual, defaultPricePerUnit);
+    }
+    
+    copyStateValue() {
+      this.state.Keys("^a^c");
     }
 
 }

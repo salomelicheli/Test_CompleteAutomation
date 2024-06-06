@@ -50,6 +50,12 @@
 						</Node>
 						<Prp name="name" type="S" value="name2"/>
 					</Node>
+					<Node name="var4">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="D710D110D810DA10D810E110D8102C002000D710D010DB10D010E010D010E810D510D810DA10D810E11020004E0031002C0020003000310038003200"/>
+						</Node>
+						<Prp name="name" type="S" value="address"/>
+					</Node>
 				</Node>
 				<Prp name="version" type="I" value="4"/>
 			</Node>

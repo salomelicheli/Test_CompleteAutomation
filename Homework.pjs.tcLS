@@ -35,6 +35,9 @@
 			<Node name="{41bd3dc8-3efd-4de9-9cce-c24a822c453b}">
 				<Prp name="relpath" type="S" value="TestProject3\TestProject3.mds.tcLS"/>
 			</Node>
+			<Node name="{431945d9-7186-4421-9cbf-9900e81fb208}">
+				<Prp name="relpath" type="S" value="TestProject2\TestProject2.mds.tcLS"/>
+			</Node>
 			<Node name="{685956fc-4768-4b54-b268-ea1dc9b28e8f}">
 				<Prp name="relpath" type="S" value="TestProject1\TestProject1.mds.tcLS"/>
 			</Node>

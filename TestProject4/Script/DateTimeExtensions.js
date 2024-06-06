@@ -1,0 +1,33 @@
+﻿const returnMoqcevaDaQoronikoni = require("HelperMethods");
+class DateTimeExtensions{
+  
+    sumOfTodaysDate(){
+      const today = aqDateTime.Today();
+      const year = aqDateTime.GetYear(today);
+      const month = aqDateTime.GetMonth(today);
+      const day = aqDateTime.GetDay(today);
+      const concatenatedDigits = aqString.Concat(aqString.Concat(day,month),year);
+      let namravli = 1;
+      for (let digit of concatenatedDigits) {
+        const num = aqConvert.StrToInt(digit);
+        if (num !== 0) { 
+           namravli *= num;
+        }
+      }
+      return namravli;
+    } 
+    
+    //ქორონიკონის წელთაღრიცხვის სისტემაში გადაჰყავს, ქორონიკონსა და მოქცევას ითვლის
+    getQoronikoniDate(){
+      const today = aqDateTime.Today();
+      const year = aqDateTime.GetYear(today);
+      const day = aqDateTime.GetDay(today);
+      const month = aqDateTime.GetMonth(today);
+      const tarigi = returnMoqcevaDaQoronikoni(year);
+      
+      return `${day} რიცხვი, მე-${month} თვე, ${tarigi[1]}-ე ქორონიკონი მე-${tarigi[0]} მოქცევისა`;
+    }
+
+}
+
+module.exports = DateTimeExtensions;
