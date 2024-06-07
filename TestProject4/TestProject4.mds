@@ -6,6 +6,7 @@
 		<child name="Script" key="{36BBE983-A974-4C4A-BCDA-3F35A643E00E}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{BDD7F90F-A2B8-4959-AE4B-FD1A683D7AA4}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="TestedApps" key="{BF2E15A0-BBAF-4CA3-84A0-90C139F28A25}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="Events" key="{A8E4205C-D6F4-41C9-8453-411BFA539FE1}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{7A146CD5-5CCC-4D1F-AF5D-B453D2DBCE33}" version="14">
@@ -24,6 +25,9 @@
 					<DefValue />
 				</Variable>
 				<Variable Name="name2" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="address" Type="String" Local="True">
 					<DefValue />
 				</Variable>
 			</Items>

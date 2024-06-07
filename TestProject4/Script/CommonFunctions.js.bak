@@ -1,4 +1,5 @@
-﻿﻿﻿function openOrdersApp() {
+﻿﻿﻿
+function openOrdersApp() {
   TestedApps.Orders.Run();
 }
 
